@@ -6,15 +6,15 @@ use_bpm 131
 use_synth :piano
 live_loop :backtrack do
   8.times do
-    sample back, amp:10
+    sample back, amp: 10
     print sample_duration back
-    sleep 32.67
+    sleep 32.8
   end
   stop
 end
 live_loop :demarco do
   8.times do
-    sample elio, amp:5
+    sample elio, amp: 5
     print sample_duration elio
     sleep 18.8
     play :g5
